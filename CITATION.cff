@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 title: "anachonism: rule-based heuristic indicators for Spanish party ideology terms on Twitter/X"
-message: "If you use this software, please cite it using the metadata from this file (concept DOI for the software family; version DOI for the exact archived release)."
+message: "If you use this software, please cite it using the metadata from this file."
 type: software
 authors:
   - family-names: Pinto Pajares
@@ -17,15 +17,12 @@ authors:
     affiliation: "Universidad Internacional de la Rioja, Spain"
 version: "1.0.2"
 date-released: "2026-11-03"
-doi: "10.5281/zenodo.23930970"
-url: "https://doi.org/10.5281/zenodo.23930970"
+doi: "10.5281/zenodo.23931188"
+url: "https://doi.org/10.5281/zenodo.23931188"
 identifiers:
   - type: doi
-    value: "10.5281/zenodo.23930970"
-    description: "Concept DOI (all versions of this software)"
-  - type: doi
-    value: "10.5281/zenodo.23930971"
-    description: "Version DOI for the archived GitHub/Zenodo release v1.0.1"
+    value: "10.5281/zenodo.23931188"
+    description: "Authoritative version DOI for the archived GitHub/Zenodo release v1.0.2"
 repository-code: "https://github.com/cesar-andress/anachronism"
 license: "CC-BY-4.0"
 keywords:

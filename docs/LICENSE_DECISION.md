@@ -2,13 +2,11 @@
 
 ## Zenodo deposit (verified)
 
-The published Zenodo archive for GitHub Release **v1.0.1**
-(`10.5281/zenodo.23930971`) was deposited under **CC-BY-4.0**
+The authoritative Zenodo archive for GitHub Release **v1.0.2**
+(`10.5281/zenodo.23931188`) is deposited under **CC-BY-4.0**
 (Creative Commons Attribution 4.0 International). That assignment is visible on
 the Zenodo record and is mirrored in `CITATION.cff` / `.zenodo.json` so citation
 metadata matches the archived deposit.
-
-Concept DOI (all versions): `10.5281/zenodo.23930970`.
 
 ## GitHub `LICENSE` file
 

@@ -131,10 +131,11 @@ See `config/expected_aggregates.json` (locked salvage numbers):
 
 | Identifier | Value | Use |
 |------------|-------|-----|
-| Concept DOI | [10.5281/zenodo.23930970](https://doi.org/10.5281/zenodo.23930970) | Cite the software family / any version |
-| Version DOI (v1.0.1) | [10.5281/zenodo.23930971](https://doi.org/10.5281/zenodo.23930971) | Cite the exact archived release |
-| GitHub Release | https://github.com/cesar-andress/anachronism/releases/tag/v1.0.1 | Source tag matching the archive |
-| Zenodo record | https://zenodo.org/records/23930971 | Landing page for v1.0.1 |
+| **Authoritative version DOI (v1.0.2)** | [10.5281/zenodo.23931188](https://doi.org/10.5281/zenodo.23931188) | **Cite this software release** |
+| GitHub Release | https://github.com/cesar-andress/anachronism/releases/tag/v1.0.2 | Source tag matching the archive |
+| Zenodo record | https://zenodo.org/records/23931188 | Landing page for v1.0.2 |
+
+Do not cite earlier Zenodo version DOIs for this project in place of `10.5281/zenodo.23931188`.
 
 ## Citation
 
@@ -142,12 +143,9 @@ See `CITATION.cff`. Example:
 
 ```
 Pinto Pajares, D., Andrés, C., & Baena Rojas, J. J. (2026).
-anachonism: rule-based heuristic indicators for Spanish party ideology terms on Twitter/X
-(Version 1.0.1). Zenodo. https://doi.org/10.5281/zenodo.23930971
+Anachronism - Research Software (Version 1.0.2).
+Zenodo. https://doi.org/10.5281/zenodo.23931188
 ```
-
-For ongoing citation of the software family (not a single archive), use the concept DOI
-`https://doi.org/10.5281/zenodo.23930970`.
 
 ## Release hygiene
 

@@ -59,11 +59,14 @@ Until then, omit `license` from both metadata files rather than using
 6. Confirm Zenodo shows a successful deposit and record version + concept DOIs
    in a **follow-up** commit on `main` only (never rewrite the published tag).
 
-Verified first archive (do not rewrite tag `v1.0.1`):
+Authoritative archived release for citation (do not rewrite published tags):
 
-- Version DOI: `10.5281/zenodo.23930971`
-- Concept DOI: `10.5281/zenodo.23930970`
-- Zenodo record: https://zenodo.org/records/23930971
+- Version: `v1.0.2`
+- Version DOI: `10.5281/zenodo.23931188`
+- Zenodo record: https://zenodo.org/records/23931188
+- GitHub Release: https://github.com/cesar-andress/anachronism/releases/tag/v1.0.2
+
+Do not cite earlier Zenodo version DOIs in place of `10.5281/zenodo.23931188`.
 
 ## Scientific qualifications (release notes)
 
