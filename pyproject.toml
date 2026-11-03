@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "anachonism"
-version = "0.1.0"
+version = "1.0.1"
 description = "Rule-based heuristic indicators for Spanish party ideology terms on Twitter/X (research reproduction package)."
 readme = "README.md"
 requires-python = ">=3.10"
@@ -13,7 +13,7 @@ authors = [
   { name = "César Andrés" },
   { name = "Jose Jaime Baena Rojas" },
 ]
-# LICENSE DECISION PENDING: no license file is shipped until the project owner chooses one.
+# SPDX license file pending owner/co-author authorization (see docs/LICENSE_DECISION.md).
 dependencies = [
   "pandas>=2.0",
 ]

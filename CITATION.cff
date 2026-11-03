@@ -1,22 +1,34 @@
 cff-version: 1.2.0
 title: "anachonism: rule-based heuristic indicators for Spanish party ideology terms on Twitter/X"
-message: "If you use this software, please cite it using these metadata (DOI pending; no Zenodo deposit yet)."
+message: "If you use this software, please cite it using the metadata from this file."
 type: software
 authors:
   - family-names: Pinto Pajares
     given-names: Daniel
     orcid: "https://orcid.org/0000-0001-9397-811X"
+    affiliation: "Universidad Internacional de la Rioja, Spain"
   - family-names: Andrés
     given-names: César
     orcid: "https://orcid.org/0009-0001-8968-3404"
+    affiliation: "Universidad Internacional de la Rioja, Spain"
   - family-names: Baena Rojas
     given-names: Jose Jaime
     orcid: "https://orcid.org/0000-0002-0915-4087"
-version: "0.1.0"
+    affiliation: "Universidad Internacional de la Rioja, Spain"
+version: "1.0.1"
 date-released: "2026-11-03"
 repository-code: "https://github.com/cesar-andress/anachronism"
-license: "NOASSERTION"
-notes: >-
-  Heuristic indicators only; not independently validated fallacy/anachronism/vacuity
-  detection. Affiliations and preferred citation string pending manuscript finalization.
-  Software license decision pending (see docs/LICENSE_DECISION.md).
+keywords:
+  - computational discourse analysis
+  - Spanish political communication
+  - Twitter
+  - rule-based heuristics
+  - research software
+abstract: >-
+  Research software that applies transparent rule-based heuristic indicators
+  (H1 pragmatic-function patterns, H2 historical vs metaphorical/anachronistic
+  cues, H3 surface density/vacuity markers, and informal-fallacy lexical
+  pattern flags) to Spanish party tweets containing documented ideology-related
+  substrings. Outputs are operational pattern labels, not independently
+  validated determinations of rhetorical fallacies, discursive anachronisms,
+  or semantic vacuity. Raw tweet corpora are not redistributed.

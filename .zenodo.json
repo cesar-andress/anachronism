@@ -1,0 +1,38 @@
+{
+  "title": "Anachronism — Research Software",
+  "version": "1.0.1",
+  "upload_type": "software",
+  "description": "<p>Research software package for transparent <strong>rule-based heuristic indicators</strong> on Spanish party communication on Twitter/X using documented ideology-related substrings.</p><p>The software measures operational pattern labels for H1 pragmatic-function patterns, H2 historical versus metaphorical/anachronistic cues, H3 surface density / vacuity markers, and informal-fallacy lexical pattern flags.</p><p><strong>Scientific qualification:</strong> outputs are heuristic indicators only. They are <em>not</em> independently validated determinations of rhetorical fallacies, discursive anachronisms, or semantic vacuity. No gold-standard human validation for these constructs is included in this artifact.</p><p>Raw and processed tweet corpora are not redistributed. The package ships rules, synthetic examples, locked aggregate targets, and reproduction scripts.</p><p>Repository: <a href=\"https://github.com/cesar-andress/anachronism\">https://github.com/cesar-andress/anachronism</a></p>",
+  "creators": [
+    {
+      "name": "Pinto Pajares, Daniel",
+      "affiliation": "Universidad Internacional de la Rioja, Spain",
+      "orcid": "0000-0001-9397-811X"
+    },
+    {
+      "name": "Andrés, César",
+      "affiliation": "Universidad Internacional de la Rioja, Spain",
+      "orcid": "0009-0001-8968-3404"
+    },
+    {
+      "name": "Baena Rojas, Jose Jaime",
+      "affiliation": "Universidad Internacional de la Rioja, Spain",
+      "orcid": "0000-0002-0915-4087"
+    }
+  ],
+  "keywords": [
+    "computational discourse analysis",
+    "Spanish political communication",
+    "Twitter",
+    "rule-based heuristics",
+    "research software"
+  ],
+  "access_right": "open",
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "https://github.com/cesar-andress/anachronism",
+      "resource_type": "software"
+    }
+  ]
+}

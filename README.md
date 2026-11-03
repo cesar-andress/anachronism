@@ -114,7 +114,7 @@ See `config/expected_aggregates.json` (locked salvage numbers):
 - Public clone alone supports **partial** reproduction (rules + synthetic smoke tests).
 - Full aggregate verification requires the raw corpus under local custody.
 - Licensing of this software package is **pending** owner decision (no LICENSE committed yet).
-- No Zenodo DOI exists yet.
+- Cite the archived GitHub/Zenodo release when a DOI is assigned; until then use `CITATION.cff`.
 
 ## Data availability and restrictions
 
@@ -128,11 +128,12 @@ See `config/expected_aggregates.json` (locked salvage numbers):
 | Odoo / PostgreSQL dumps | No | Private research infra |
 | Manuscript / audits | No | Stay in private salvage tree |
 
-## Future Zenodo archival status
+## Zenodo archival status
 
-Not deposited. See the private salvage report `ZENODO_READINESS.md` (outside this Git tree).
-A GitHub↔Zenodo link can be configured after the first reviewed public release.
+GitHub Releases are configured for Zenodo ingestion. Use the version DOI of a successful
+Zenodo archive when citing a specific release; use the concept DOI for the software family
+once Zenodo assigns them. Do not invent a DOI.
 
 ## Citation
 
-Use `CITATION.cff` once authorship/affiliations and license are finalized. Do not invent a DOI.
+See `CITATION.cff`. Software license SPDX remains pending (`docs/LICENSE_DECISION.md`).
