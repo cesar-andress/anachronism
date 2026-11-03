@@ -44,3 +44,6 @@ CLAUDE.md
 ../internal/
 ../legacy/
 ../build/
+
+# Allow non-empirical synthetic examples
+!examples/*.csv
