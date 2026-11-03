@@ -10,8 +10,8 @@ readme = "README.md"
 requires-python = ">=3.10"
 authors = [
   { name = "Daniel Pinto Pajares" },
-  { name = "César Andrés Sánchez" },
-  { name = "Jose Jaime Baena-Rojas" },
+  { name = "César Andrés" },
+  { name = "Jose Jaime Baena Rojas" },
 ]
 # LICENSE DECISION PENDING: no license file is shipped until the project owner chooses one.
 dependencies = [

@@ -5,10 +5,13 @@ type: software
 authors:
   - family-names: Pinto Pajares
     given-names: Daniel
-  - family-names: Andrés Sánchez
+    orcid: "https://orcid.org/0000-0001-9397-811X"
+  - family-names: Andrés
     given-names: César
-  - family-names: Baena-Rojas
+    orcid: "https://orcid.org/0009-0001-8968-3404"
+  - family-names: Baena Rojas
     given-names: Jose Jaime
+    orcid: "https://orcid.org/0000-0002-0915-4087"
 version: "0.1.0"
 date-released: "2026-11-03"
 repository-code: "https://github.com/cesar-andress/anachronism"
