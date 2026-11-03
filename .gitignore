@@ -45,5 +45,26 @@ CLAUDE.md
 ../legacy/
 ../build/
 
+# Manuscript / office formats must never enter this public software tree
+*.tex
+*.bib
+*.bbl
+*.aux
+*.blg
+*.toc
+*.lof
+*.lot
+*.docx
+*.doc
+*.odt
+*.pptx
+*.xlsx
+
+# Large / private research dumps
+*.dump
+*.sql
+*.sql.gz
+*.pgdump
+
 # Allow non-empirical synthetic examples
 !examples/*.csv

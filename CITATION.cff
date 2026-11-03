@@ -15,7 +15,7 @@ authors:
     given-names: Jose Jaime
     orcid: "https://orcid.org/0000-0002-0915-4087"
     affiliation: "Universidad Internacional de la Rioja, Spain"
-version: "1.0.1"
+version: "1.0.2"
 date-released: "2026-11-03"
 repository-code: "https://github.com/cesar-andress/anachronism"
 keywords:

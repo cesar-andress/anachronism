@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.0.2 — 2026-11-03
+
+- Add hard release-metadata gate (`scripts/check_release_metadata.py`) and CI
+  workflow so invalid `CITATION.cff` / `.zenodo.json` cannot ship unnoticed.
+- Sync versions across package, CFF, Zenodo JSON, and `pyproject.toml`.
+- Remove absolute private machine paths from public docs.
+- Harden `.gitignore` against manuscript and dump formats.
+- Document the release checklist in `docs/RELEASING.md`.
+
 ## 1.0.1 — 2026-11-03
 
 - Fix Zenodo/GitHub archival metadata: remove invalid `CITATION.cff` field `notes`

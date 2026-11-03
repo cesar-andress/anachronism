@@ -10,7 +10,10 @@ from .fallacies import detect_fallacies
 from .h2_semantics import classify_h2
 from .h3_vacuity import classify_h3
 
+__version__ = "1.0.2"
+
 __all__ = [
+    "__version__",
     "classify_function",
     "detect_fallacies",
     "classify_h2",

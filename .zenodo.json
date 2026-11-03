@@ -1,6 +1,6 @@
 {
-  "title": "Anachronism — Research Software",
-  "version": "1.0.1",
+  "title": "Anachronism - Research Software",
+  "version": "1.0.2",
   "upload_type": "software",
   "description": "<p>Research software package for transparent <strong>rule-based heuristic indicators</strong> on Spanish party communication on Twitter/X using documented ideology-related substrings.</p><p>The software measures operational pattern labels for H1 pragmatic-function patterns, H2 historical versus metaphorical/anachronistic cues, H3 surface density / vacuity markers, and informal-fallacy lexical pattern flags.</p><p><strong>Scientific qualification:</strong> outputs are heuristic indicators only. They are <em>not</em> independently validated determinations of rhetorical fallacies, discursive anachronisms, or semantic vacuity. No gold-standard human validation for these constructs is included in this artifact.</p><p>Raw and processed tweet corpora are not redistributed. The package ships rules, synthetic examples, locked aggregate targets, and reproduction scripts.</p><p>Repository: <a href=\"https://github.com/cesar-andress/anachronism\">https://github.com/cesar-andress/anachronism</a></p>",
   "creators": [

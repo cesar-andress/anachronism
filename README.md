@@ -21,8 +21,7 @@ The software measures **transparent heuristic indicators** on tweets that contai
 
 The locked empirical results of the manuscript (raw N = 245,790; analytical N = 13,557;
 Tables 2–3; 771 multi-label fallacy hits; 740 distinct tweets with ≥1 hit; `H3_VACIO` = 129)
-were produced by the historical offline Python pipeline archived under
-`/home/cesar/proyectos-python/investigacion` (see `docs/SOURCE_MAPPING.md`).
+were produced by the historical offline Python pipeline (see `docs/SOURCE_MAPPING.md`).
 
 A later Odoo module (`tweet_test_battery`) reuses the **same rule source files** byte-for-byte,
 but the PostgreSQL database `investigacion` currently stores **different** corpus runs and
@@ -137,3 +136,15 @@ once Zenodo assigns them. Do not invent a DOI.
 ## Citation
 
 See `CITATION.cff`. Software license SPDX remains pending (`docs/LICENSE_DECISION.md`).
+
+## Release hygiene
+
+Before any tag or GitHub Release, run the metadata gate (also enforced in CI):
+
+```bash
+pip install -e ".[dev]"
+pytest -q tests/test_rules_smoke.py tests/test_release_metadata.py
+python scripts/check_release_metadata.py
+```
+
+Full checklist: `docs/RELEASING.md`.
