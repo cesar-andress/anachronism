@@ -1,12 +1,24 @@
-# License decision (pending)
+# License decision
 
-No OSI `LICENSE` file is included in this repository yet.
+## Zenodo deposit (verified)
 
-**Reason:** inventing a software license without copyright-holder authorization is forbidden.
-Historical Odoo / offline trees did not document a clear redistributable license for this
-extracted package. `CITATION.cff` therefore omits `license` (an invalid `NOASSERTION`
-value previously broke Zenodo CFF validation).
+The published Zenodo archive for GitHub Release **v1.0.1**
+(`10.5281/zenodo.23930971`) was deposited under **CC-BY-4.0**
+(Creative Commons Attribution 4.0 International). That assignment is visible on
+the Zenodo record and is mirrored in `CITATION.cff` / `.zenodo.json` so citation
+metadata matches the archived deposit.
 
-**Owner action required:** choose and commit an SPDX license (e.g. MIT, Apache-2.0, or
-GPL-3.0) after confirming co-author agreement, then add `LICENSE` and set matching
-`license` fields in `CITATION.cff` and `.zenodo.json`.
+Concept DOI (all versions): `10.5281/zenodo.23930970`.
+
+## GitHub `LICENSE` file
+
+A root `LICENSE` file is still recommended for GitHub license detection clarity.
+If co-authors later authorize a different SPDX id for the source tree (e.g. MIT
+for code), update:
+
+1. `LICENSE`
+2. `CITATION.cff` `license`
+3. `.zenodo.json` `license`
+4. this document
+
+Do not use fake values such as `NOASSERTION` (they break Zenodo CFF validation).

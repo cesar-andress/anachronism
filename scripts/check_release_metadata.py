@@ -155,6 +155,12 @@ def check_citation_cff() -> str:
         ) from exc
 
     Citation(path.read_text(encoding="utf-8")).validate()
+
+    doi = data.get("doi")
+    if doi is not None:
+        if not str(doi).startswith("10."):
+            raise SystemExit(f"CITATION.cff doi looks invalid: {doi!r}")
+
     return str(data["version"])
 
 

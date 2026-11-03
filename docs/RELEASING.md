@@ -59,6 +59,12 @@ Until then, omit `license` from both metadata files rather than using
 6. Confirm Zenodo shows a successful deposit and record version + concept DOIs
    in a **follow-up** commit on `main` only (never rewrite the published tag).
 
+Verified first archive (do not rewrite tag `v1.0.1`):
+
+- Version DOI: `10.5281/zenodo.23930971`
+- Concept DOI: `10.5281/zenodo.23930970`
+- Zenodo record: https://zenodo.org/records/23930971
+
 ## Scientific qualifications (release notes)
 
 Release notes must preserve:

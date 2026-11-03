@@ -112,8 +112,8 @@ See `config/expected_aggregates.json` (locked salvage numbers):
 - Heuristic / regex rules; high false-positive/negative risk for complex constructs.
 - Public clone alone supports **partial** reproduction (rules + synthetic smoke tests).
 - Full aggregate verification requires the raw corpus under local custody.
-- Licensing of this software package is **pending** owner decision (no LICENSE committed yet).
-- Cite the archived GitHub/Zenodo release when a DOI is assigned; until then use `CITATION.cff`.
+- Zenodo deposit v1.0.1 is archived under CC-BY-4.0; see `docs/LICENSE_DECISION.md`.
+- Prefer the concept DOI for general citation and the version DOI for the exact archive.
 
 ## Data availability and restrictions
 
@@ -129,13 +129,25 @@ See `config/expected_aggregates.json` (locked salvage numbers):
 
 ## Zenodo archival status
 
-GitHub Releases are configured for Zenodo ingestion. Use the version DOI of a successful
-Zenodo archive when citing a specific release; use the concept DOI for the software family
-once Zenodo assigns them. Do not invent a DOI.
+| Identifier | Value | Use |
+|------------|-------|-----|
+| Concept DOI | [10.5281/zenodo.23930970](https://doi.org/10.5281/zenodo.23930970) | Cite the software family / any version |
+| Version DOI (v1.0.1) | [10.5281/zenodo.23930971](https://doi.org/10.5281/zenodo.23930971) | Cite the exact archived release |
+| GitHub Release | https://github.com/cesar-andress/anachronism/releases/tag/v1.0.1 | Source tag matching the archive |
+| Zenodo record | https://zenodo.org/records/23930971 | Landing page for v1.0.1 |
 
 ## Citation
 
-See `CITATION.cff`. Software license SPDX remains pending (`docs/LICENSE_DECISION.md`).
+See `CITATION.cff`. Example:
+
+```
+Pinto Pajares, D., Andrés, C., & Baena Rojas, J. J. (2026).
+anachonism: rule-based heuristic indicators for Spanish party ideology terms on Twitter/X
+(Version 1.0.1). Zenodo. https://doi.org/10.5281/zenodo.23930971
+```
+
+For ongoing citation of the software family (not a single archive), use the concept DOI
+`https://doi.org/10.5281/zenodo.23930970`.
 
 ## Release hygiene
 
