@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "anachonism: rule-based heuristic indicators for Spanish party ideology terms on Twitter/X"
+message: "If you use this software, please cite it using these metadata (DOI pending; no Zenodo deposit yet)."
+type: software
+authors:
+  - family-names: Pinto Pajares
+    given-names: Daniel
+  - family-names: Andrés Sánchez
+    given-names: César
+  - family-names: Baena-Rojas
+    given-names: Jose Jaime
+version: "0.1.0"
+date-released: "2026-11-03"
+repository-code: "https://github.com/cesar-andress/anachonism"
+license: "NOASSERTION"
+notes: >-
+  Heuristic indicators only; not independently validated fallacy/anachronism/vacuity
+  detection. Affiliations and preferred citation string pending manuscript finalization.
+  Software license decision pending (see docs/LICENSE_DECISION.md).

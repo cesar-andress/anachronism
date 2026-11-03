@@ -1,0 +1,58 @@
+{
+  "raw_rows": 245790,
+  "raw_sha256": "755b8334e770a43bff2ae7e2edaa37c7ce9c459f683ca62e976114ea5f29835a",
+  "analytical_rows": 13557,
+  "party_totals": {
+    "Vox": 4300,
+    "PSOE": 3666,
+    "Podemos": 3359,
+    "Ciudadanos": 1214,
+    "PP": 1018
+  },
+  "h1": {
+    "EVALUATIVO": 8217,
+    "OTRO": 5325,
+    "DEFINICIONAL": 14,
+    "MIXTO": 1
+  },
+  "h2": {
+    "H2_HISTORICO": 762,
+    "H2_METAFORICO_ANACRONICO": 703,
+    "H2_NO_CLASIFICADO": 12092
+  },
+  "h3": {
+    "H3_VACIO": 129,
+    "H3_DENSO": 5642,
+    "H3_NO_CLASIFICADO": 7786
+  },
+  "fallacy_multilabel_hits": 771,
+  "fallacy_distinct_tweets": 740,
+  "notes": "Locked to salvage provenance audit; heuristic indicators only.",
+  "table2_h2_by_party": {
+    "Vox": {
+      "H2_HISTORICO": 411,
+      "H2_METAFORICO_ANACRONICO": 331,
+      "H2_NO_CLASIFICADO": 3558
+    },
+    "PSOE": {
+      "H2_HISTORICO": 76,
+      "H2_METAFORICO_ANACRONICO": 50,
+      "H2_NO_CLASIFICADO": 3540
+    },
+    "Podemos": {
+      "H2_HISTORICO": 165,
+      "H2_METAFORICO_ANACRONICO": 185,
+      "H2_NO_CLASIFICADO": 3009
+    },
+    "Ciudadanos": {
+      "H2_HISTORICO": 60,
+      "H2_METAFORICO_ANACRONICO": 89,
+      "H2_NO_CLASIFICADO": 1065
+    },
+    "PP": {
+      "H2_HISTORICO": 50,
+      "H2_METAFORICO_ANACRONICO": 48,
+      "H2_NO_CLASIFICADO": 920
+    }
+  }
+}

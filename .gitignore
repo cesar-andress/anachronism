@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local data (do not commit tweet corpora)
+data/
+*.csv
+*.tsv
+*.db
+*.sqlite
+
+# Secrets / env
+.env
+.env.*
+*.pem
+odoo*.conf
+*.conf.bak
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+*~
+
+# Agent / private tooling (never publish)
+.cursor/
+.claude/
+.agents/
+.agent/
+AGENTS.md
+CLAUDE.md
+
+# Nested salvage / manuscript material (parent tree is private)
+../manuscript/
+../internal/
+../legacy/
+../build/

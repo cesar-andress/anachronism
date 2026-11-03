@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "anachonism"
+version = "0.1.0"
+description = "Rule-based heuristic indicators for Spanish party ideology terms on Twitter/X (research reproduction package)."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "Daniel Pinto Pajares" },
+  { name = "César Andrés Sánchez" },
+  { name = "Jose Jaime Baena-Rojas" },
+]
+# LICENSE DECISION PENDING: no license file is shipped until the project owner chooses one.
+dependencies = [
+  "pandas>=2.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
